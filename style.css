@@ -8,8 +8,9 @@ body {
 
 .header-section {
     display: flex;
+    height: 573px;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -244,4 +245,22 @@ small {
     font-weight: 400;
     line-height: 20px;
     padding-bottom: 20px;
+}
+
+.extra-bonus-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 100px; */
+}
+
+.extra-div {
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #A7216226;
+    /* border: 2px solid chocolate; */
+    margin-bottom: 70px;
+    margin-right: 17px;
+    box-shadow: 4px 2px 105px rgb(241, 163, 174);
 }
